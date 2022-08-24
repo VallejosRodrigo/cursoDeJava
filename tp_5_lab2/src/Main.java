@@ -1,26 +1,11 @@
-public class Main {
+public class Main {    //RESOLVER OPERACION CONVINADA TPn5 LABORATORIO II T.U.P.
 
     public static void main(String[] args) {
-        int numero = 60;
-        int otroNumero = 10;
 
-        //Funciones Trigonometricas
+        float f1= 6/5.f, f2= 2/3.f, f3= 7/2.f, f4= 2/30.f, f5= 1/3.f;  //fracciones
 
-        System.out.println(Math.sin(numero));
-        System.out.println(Math.cos(numero));
-        System.out.println(Math.tan(numero));
-        System.out.println(Math.atan(numero));
-        System.out.println(Math.atan2(numero,otroNumero));
+        float resultado = (f1 - (f2 * f3) + f4) / (f5 / 5);  //operacion completa
 
-        //Funciones exponenciales y su inversa
-
-        System.out.println("E, elevado a 60 es " + Math.exp(numero));
-        System.out.println("La base neutral de 10 es " + Math.log(otroNumero));
-
-        //Constante PI y E
-
-        System.out.println("Pi es igual a " + Math.PI);
-        System.out.println("E es igual a " + Math.E);
-
+        System.out.println(resultado);
     }
 }
